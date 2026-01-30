@@ -1,7 +1,7 @@
 from os import getenv
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv("sample.env")
 
 class Config:
     def __init__(self):
